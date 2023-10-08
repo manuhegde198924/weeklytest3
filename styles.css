@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+  }
+
+  .product-list {
+    flex: 1;
+    padding: 20px;
+    width: 450px;
+    border:15px solid purple;
+  }
+
+  .cart {
+    flex: 1;
+    padding: 20px;
+    width:300px;
+    border:15px solid navy;
+  }
+  .container{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    flex-wrap: wrap;
+}
+body{
+    background-color: rgb(197, 128, 43);
+}
+#product-list{
+    border : 10px solid #3F2609;
+    width:450px;
+    height:25rem;
+    padding:10px;
+    background-color: darkseagreen;
+    color:firebrick;
+}
+#cart{
+    width:300px;
+    height:25rem;
+    border : 10px solid grey;
+    background-color: aqua;
+    color:crimson;
+}
